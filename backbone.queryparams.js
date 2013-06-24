@@ -153,7 +153,7 @@
         }
       }
 
-      return (QueryParams.namedParams || route.namedParams) ? [namedParams] : params;
+      return (QueryParams.namedParams || this.namedParams) ? [namedParams] : params;
     },
 
     /**
@@ -322,5 +322,4 @@
       add(prefix, object);
     }
   }
-
 });
